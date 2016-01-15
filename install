@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+echo ""
+echo "Deploy vimrc settings......"
+
+rm -rf $HOME/.vim
+rm -rf $HOME/.vimrc
+rm -rf $HOME/.gvimrc
+
+current_path="${PWD}"
+
+rm -rf $current_path/bundle
+git clone https://github.com/gmarik/Vundle.vim.git $current_path/bundle/Vundle.vim
+
+
+ln -s $current_path $HOME/.vim
+ln -s $current_path/vimrc $HOME/.vimrc
+
+
+vim +PluginInstall +qall
+
+echo "Deploy vimrc done."
