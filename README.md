@@ -13,8 +13,8 @@ It's my vim settings on Linux/OSX
 
 This step will overwrite your .vimrc .gvimrc file and .vim folder, be sure **backup your vim settings** first !!!
 
-    git clone git://github.com/torubylist/vim.git
-    cd vim
+    git clone git://github.com/torubylist/vimrc.git
+    cd vimrc
     chmod +x ./install && ./install
 
 # QA
@@ -26,7 +26,7 @@ if show -python .which say you need reconfigure your vim.then check you python v
 * 1.git clone https://github.com/vim/vim.git
 * 2.cd vim;cd src;
 * 3.make distclean  # if you build Vim before
-* 4. ./configure --prefix=/usr/local/bin --with-features=huge --enable-perlinterp=yes --enable-rubyinterp=yes --enable-pythoninterp=yes --enable-multibyte --with-python-config-dir=/usr/lib64/python2.7/config
+* 4. ./configure --prefix=/usr/local/bin --with-features=huge --enable-perlinterp=yes --enable-rubyinterp=yes --enable-pythoninterp=yes --enable-multibyte --with-python-config-dir=/usr/lib64/python2.7/config --enable-cscope
 * 5. make;sudo make install
 
 Done.
