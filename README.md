@@ -26,7 +26,7 @@ if show -python .which say you need reconfigure your vim.then check you python v
 * 1.git clone https://github.com/vim/vim.git
 * 2.cd vim;cd src;
 * 3.make distclean  # if you build Vim before
-* 4. ./configure --prefix=/usr/local/bin --with-features=huge --enable-perlinterp=yes --enable-rubyinterp=yes --enable-pythoninterp=yes
+* 4. ./configure --prefix=/usr/local/bin --with-features=huge --enable-perlinterp=yes --enable-rubyinterp=yes --enable-pythoninterp=yes --with-python-config-dir=/usr/lib64/python2.7/config
 * 5. make;sudo make install
 
 Done.
