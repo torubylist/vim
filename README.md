@@ -13,8 +13,8 @@ It's my vim settings on Linux/OSX
 
 This step will overwrite your .vimrc .gvimrc file and .vim folder, be sure **backup your vim settings** first !!!
 
-    git clone git://github.com/huobazi/vimrc.git
-    cd vimrc 
+    git clone git://github.com/torubylist/vim.git
+    cd vim
     chmod +x ./install && ./install
 
 # QA
