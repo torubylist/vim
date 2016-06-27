@@ -10,6 +10,9 @@ autocmd! bufwritepost vimrc source ~/.vim/vimrc
 filetype plugin on
 filetype indent on
 
+"vimshell
+let g:vimshell_prompt = '$'
+
 " 字典
 "set dictionary+=~/.vim/dict/my_words
 "set dictionary-=/usr/share/dict/words dictionary+=/usr/share/dict/words
@@ -65,7 +68,7 @@ set tabstop=4                  " 设定 tab 长度为 4
 set nobackup                   " 覆盖文件时不备份
 set nowritebackup
 set noswapfile                 " 不产生交换文件
-set autochdir                  " 自动切换当前目录为当前文件所在的目录
+"set autochdir                  " 自动切换当前目录为当前文件所在的目录
 filetype plugin indent on      " 开启插件
 set backupcopy=yes             " 设置备份时的行为为覆盖
 set ignorecase smartcase       " 索时忽略大小写，但在有一个或以上大写字母时仍保持对大小写敏感

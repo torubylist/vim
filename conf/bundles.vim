@@ -87,8 +87,9 @@ Plugin 'tpope/vim-bundler'
 Plugin 'thoughtbot/vim-rspec'
 
 "Easy motion
+Plugin 'shougo/vimshell.vim'
 Plugin 'easymotion/vim-easymotion'
-
+Plugin 'shougo/vimproc.vim'
 
 
 
