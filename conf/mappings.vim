@@ -1,8 +1,8 @@
 " 停用上下左右的箭头
-"map <UP> <NOP>
-"map <DOWN> <NOP>
-"map <LEFT> <NOP>
-"map <RIGHT> <NOP>
+map <UP> <NOP>
+map <DOWN> <NOP>
+map <LEFT> <NOP>
+map <RIGHT> <NOP>
 "inoremap <UP> <NOP>
 "inoremap <DOWN> <NOP>
 "inoremap <LEFT> <NOP>

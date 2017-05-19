@@ -18,10 +18,10 @@ let g:vimshell_prompt = '$'
 "set dictionary-=/usr/share/dict/words dictionary+=/usr/share/dict/words
 
 " 字体
-set guifont=monaco\ 13
+"set guifont=monaco\ 13
 
 set mouse=a          " 打开鼠标功能
-set selection=exclusive
+"set selection=exclusive
 set selectmode=mouse,key
 
 set tabstop=4        " 指标符宽度
@@ -58,7 +58,7 @@ set formatoptions+=mM          " 正确地处理中文字符的折行和拼接
 set autoindent
 set undolevels=10000
 set history=10000                " history文件中需要记录的行数
-set nocompatible               " 关闭 vi 兼容模式
+"set nocompatible               " 关闭 vi 兼容模式
 set number                     " 显示行号
 set cursorline                 " 突出显示当前行
 set ruler                      " 打开状态栏标尺
@@ -84,8 +84,8 @@ set magic                      " 设置魔术
 set hidden                     " 允许在有未保存的修改时切换缓冲区，此时的修改由 vim 负责保存
 set guioptions-=T              " 隐藏工具栏
 set guioptions-=m              " 隐藏菜单栏
-set guioptions-=r              " Removes right hand scroll bar
-set go-=L                      " Removes left hand scroll bar
+"set guioptions-=r              " Removes right hand scroll bar
+"set go-=L                      " Removes left hand scroll bar
 set smartindent                " 开启新行时使用智能自动缩进
 set backspace=indent,eol,start " 不设定在插入状态无法用退格键和 Delete 键删除回车符
 set cmdheight=1                " 设定命令行的行数为 1
@@ -247,7 +247,9 @@ autocmd FileType json set foldmethod=syntax
 " }}}
 
 
-vnoremap <silent> <Enter> :EasyAlign<cr>
+" vnoremap <silent> <Enter> :EasyAlign<cr>
+vmap <Leader>b <Plug>(EasyAlign)
+nmap <Leader>b <Plug>(EasyAlign)
 
 " NeoSnippet {{{
 "

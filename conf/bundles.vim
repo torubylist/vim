@@ -10,7 +10,11 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
+
+
 " My vundle list
+
+Plugin 'tomtom/tcomment_vim'
 
 Plugin 'JavaScript-syntax'
 Plugin 'jQuery'
@@ -49,15 +53,13 @@ Plugin 'fatih/vim-go'
 Plugin 'vim-ruby/vim-ruby'
 
 " CoffeeScript
-Plugin 'kchmck/vim-coffee-script'
+"Plugin 'kchmck/vim-coffee-script'
 
 " Markdown
 Plugin 'hallison/vim-markdown'
 
-" Slim
-"Plugin 'slim-template/vim-slim'
 "swift
-Plugin 'keith/swift.vim'
+"Plugin 'keith/swift.vim'
 
 " Fcitx
 Plugin 'vim-scripts/fcitx.vim'
@@ -73,9 +75,9 @@ Plugin 'tpope/vim-rails'
 Plugin 'sunaku/vim-ruby-minitest'
 
 "vim-github-dashboard
-Plugin 'junegunn/vim-github-dashboard'
-Plugin 'scrooloose/syntastic'
-Plugin 'airblade/vim-gitgutter'
+"Plugin 'junegunn/vim-github-dashboard'
+"Plugin 'scrooloose/syntastic'
+"Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-git'
 
 
@@ -83,14 +85,13 @@ Plugin 'tpope/vim-git'
 Plugin 'tpope/vim-bundler'
 
 
-"Rspec
-Plugin 'thoughtbot/vim-rspec'
-
 "Easy motion
 Plugin 'shougo/vimshell.vim'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'shougo/vimproc.vim'
 
+"Surround
+Plugin 'tpope/vim-surround'
 
 
 " All of your Plugins must be added before the following line
